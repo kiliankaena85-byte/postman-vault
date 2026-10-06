@@ -16,7 +16,7 @@ Postman deprecated the offline **Scratch Pad** and forces users to sync all work
 For **Fintech, Banking, Healthcare, and Enterprise teams**, this creates acute compliance and security risks:
 * **Credential Leaks:** Production API tokens, JWTs, and internal IPs get uploaded to a 3rd-party SaaS.
 * **Vendor Lock-in:** Postman v12 stores collections in modular `.request.yaml` files and Chromium LevelDB/IndexedDB state that no external API client (Bruno, Insomnia, Hoppscotch) can read natively.
-* **Exorbitant Costs:** Postman Enterprise charges **$49/user/month** ($58,800/year for 100 developers) simply to regain data residency controls.
+* **Loss of Data Residency:** Organizations are forced into proprietary enterprise tiers simply to retain local control over their own API collections.
 
 ---
 
