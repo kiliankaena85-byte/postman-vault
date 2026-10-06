@@ -1,0 +1,28 @@
+{
+  "name": "postman-vault",
+  "version": "1.0.0",
+  "description": "Offline Extractor, Security Auditor & OpenAPI Porter for Postman Desktop collections",
+  "main": "index.js",
+  "bin": {
+    "postman-vault": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test-all.js",
+    "start": "node bin/cli.js ui"
+  },
+  "keywords": [
+    "postman",
+    "openapi",
+    "swagger",
+    "export",
+    "offline",
+    "reverse-engineering",
+    "bruno",
+    "security-audit"
+  ],
+  "author": "kiliankaena85-byte",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.3.2"
+  }
+}
